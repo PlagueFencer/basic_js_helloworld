@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Verkkosivu</title>
+    <script>
+        function naytaTervehdys() {
+            alert("Hello World!");
+
+            const viesti = document.createElement("p");
+            viesti.textContent = "Hello World!";
+            document.body.appendChild(viesti);
+        }
+
+        window.addEventListener("DOMContentLoaded", naytaTervehdys);
+    </script>
+</head>
+<body>
+    <h1>Tervetuloa!</h1>
+    <p>Hei maailma!</p>
+    <p><a href="toinen.html">Siirry toiselle sivulle</a></p>
+    <p><a href="kolmas.html">Siirry kolmannelle sivulle</a></p>
+    <p><a href="neljas.html">Siirry neljännelle sivulle</a></p>
+    <table>
+        <tr>
+            <th>Otsikko 1</th>
+            <th>Otsikko 2</th>
+        </tr>
+        <tr>
+            <td>Rivi 1, Solu 1</td>
+            <td>Rivi 1, Solu 2</td>
+        </tr>
+        <tr>
+            <td>Rivi 2, Solu 1</td>
+            <td>Rivi 2, Solu 2</td>
+        </tr>
+    </table>
+    <img src="kuvat/white-cat-breeds-kitten-in-grass-67bf648a54a3b.jpg" alt="Kuva">
+
+</body>
+</html>
